@@ -1,2 +1,4 @@
-# workoutmanager
-Workout Manager
+# Workout Manager
+
+Swing project to manage fitness workouts.
+
