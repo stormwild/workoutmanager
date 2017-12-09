@@ -5,7 +5,7 @@ import java.net.URISyntaxException;
 
 import com.emma.workoutmanager.WorkoutManager;
 
-public class Helpers {
+public class PathHelpers {
 	
 	/**
 	 * Returns the path to the currently running jar file
@@ -32,5 +32,9 @@ public class Helpers {
 		// Paths requires java.nio
 		// return Paths.get(".").toAbsolutePath().normalize().toString();
 		return System.getProperty("user.dir");
+	}
+	
+	public static Boolean FileExists(String filePath) {
+		return new File(filePath).isFile();
 	}
 }
