@@ -2,6 +2,28 @@
 
 Swing project to manage fitness workouts.
 
+## Notes
+
+### Reference Current Working Directory
+
+When running a jar file from the command line, the directory where the command was executed is the current working directory.
+
+It may not necessarily be the directory of the jar file.
+
+So if I am on 
+
+(/c/myfolder) $ java /d/myjar.jar
+
+the current working directory is /c/myfolder
+
+If I want to reference the directory of the jar file -- how?
+
+https://stackoverflow.com/questions/320542/how-to-get-the-path-of-a-running-jar-file
+
+Aargh so many ways, which one?
+
+ 
+
 ## References
 
 ### Beginner Tutorials
@@ -16,6 +38,7 @@ Swing project to manage fitness workouts.
 ### SQLIte
 
 - [SQLite Java: Create a New Table](http://www.sqlitetutorial.net/sqlite-java/create-table/)
+
 ### Others
 
 - [SWING - Quick Guide](https://www.tutorialspoint.com/swing/swing_quick_guide.htm)
